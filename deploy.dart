@@ -54,7 +54,7 @@ void main() async {
 
   // Open the site in the default browser
 
-  var siteUrl = '  https://bk-software.github.io/';
+  var siteUrl = 'https://bk-software.github.io/';
 
   if (Platform.isMacOS) {
     await Process.run('open', [siteUrl]);
