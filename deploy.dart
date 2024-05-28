@@ -53,7 +53,9 @@ void main() async {
   }
 
   // Open the site in the default browser
-  var siteUrl = 'https://your-github-username.github.io/your-repo-name';
+
+  var siteUrl = '  https://bk-software.github.io/';
+
   if (Platform.isMacOS) {
     await Process.run('open', [siteUrl]);
   } else if (Platform.isWindows) {
